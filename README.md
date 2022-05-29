@@ -23,9 +23,9 @@
 * pandas==0.19.2
 ## Code Improvements
 
-* Including the Spotify Dataset for more songs.
 * Mood-detection based music recommendation to be an added feature.
 * Multiple login and registration paths to be included to let the website remember the user.
+* * Including the Spotify Dataset for songs of varied genre.
 ## Exploratory Survey
 
 An observational poll on the factors that influence music preferences.
