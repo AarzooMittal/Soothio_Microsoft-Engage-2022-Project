@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>Soothio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel='stylesheet' href='libs/nprogress/nprogress.css'/>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleCenteredNav" aria-controls="navbarsExampleCenteredNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarsExampleCenteredNav">
+                <a class="navbar-brand" href="#">Soothio</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="http://arxiv.org/abs/1708.02765">LogIn/SignUp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <form method="post" action="#">
+            <div class="row">
+                <div class="col-md-2">
+                    <h2>Context Features</h2>
+                    <div class="form-group">
+                        <label for="context_activity">Activity</label>
+                        <select class="form-control" name="context_activity">
+                            <option value="0">None</option>
+                            <option value="1" selected>Jogging</option>
+                            <option value="2">Walking</option>
+                            <option value="3">Cycling</option>
+                            <option value="4">Driving</option>
+                            <option value="5">Sleeping</option>
+                        </select>
+                    </div>
+                    <div class="form-group hidden">
+                        <label for="context_speed">Speed</label>
+                        <select class="form-control" name="context_speed">
+                            <option value="0">None</option>
+                            <option value="1">Slow</option>
+                            <option value="2">Moderate</option>
+                            <option value="3" selected>Fast</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="context_social">Social</label>
+                        <select class="form-control" name="context_social">
+                            <option value="0">None</option>
+                            <option value="1" selected>Alone</option>
+                            <option value="2">With friends</option>
+                            <option value="3">With family</option>
+                            <option value="4">With colleagues</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="context_location">Location</label>
+                        <select class="form-control" name="context_location">
+                            <option value="0">None</option>
+                            <option value="1">Home</option>
+                            <option value="2">Office</option>
+                            <option value="3" selected>Downtown</option>
+                            <option value="4">Park</option>
+                            <option value="5">Beach</option>
+                            <option value="6">Countryside</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="context_weather">Weather</label>
+                        <select class="form-control" name="context_weather">
+                            <option value="0">None</option>
+                            <option value="1">Clear</option>
+                            <option value="2">Clouds</option>
+                            <option value="3" selected>Rain</option>
+                            <option value="4">Snow</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="context_daytime">Time of the Day</label>
+                        <select class="form-control" name="context_daytime">
+                            <option value="0">None</option>
+                            <option value="1">Early morning</option>
+                            <option value="2">Morning</option>
+                            <option value="3">Noon</option>
+                            <option value="4">Afternoon</option>
+                            <option value="5">Evening</option>
+                            <option value="6" selected>Night</option>
+                            <option value="7">Late night</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cotext_condition">Physical condition</label>
+                        <select class="form-control" name="cotext_condition">
+                            <option value="0">None</option>
+                            <option value="1">Relaxed</option>
+                            <option value="2" selected>Tired</option>
+                            <option value="3">Energized</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="context_mood">Mood</label>
+                        <select class="form-control" name="context_mood">
+                            <option value="0">None</option>
+                            <option value="1" selected>Angry</option>
+                            <option value="2">Excited</option>
+                            <option value="3">Happy</option>
+                            <option value="4">Nervous</option>
+                            <option value="5">Calm</option>
+                            <option value="6">Pleased</option>
+                            <option value="7">Bored</option>
+                            <option value="8">Relaxed</option>
+                            <option value="9">Sad</option>
+                            <option value="10">Sleepy</option>
+                            <option value="11">Peaceful</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Recommenders</h2>
+                    <br/>
+                    <table class="table table-bordered">
+                        <thead class="thead-default">
+                            <tr>
+                                <th>Recommender</th>
+                                <th>Mood</th>
+                                <th>Tempo</th>
+                                <th>Genre</th>
+                                <th>Weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="recommender_1">
+                                <td>Sport</td>
+                                <td class="mood"></td>
+                                <td class="tempo"></td>
+                                <td class="genre"></td>
+                                <td>
+                                    <input type="text" class="form-control" value="40" name="weight_recommender_1" placeholder="Weight">
+                                </td>
+                            </tr>
+                            <tr class="recommender_2">
+                                <td>Location</td>
+                                <td class="mood"></td>
+                                <td class="tempo"></td>
+                                <td class="genre"></td>
+                                <td>
+                                    <input type="text" class="form-control" value="30" name="weight_recommender_2" placeholder="Weight">
+                                </td>
+                            </tr>
+                            <tr class="recommender_3">
+                                <td>Social</td>
+                                <td class="mood"></td>
+                                <td class="tempo"></td>
+                                <td class="genre"></td>
+                                <td>
+                                    <input type="text" class="form-control" value="30" name="weight_recommender_3" placeholder="Weight">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"></td>
+                            </tr>
+                            <tr class="hybrid">
+                                <td>Hybrid</td>
+                                <td class="mood"></td>
+                                <td class="tempo"></td>
+                                <td class="genre" colspan="2"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-md-4">
+                    <h2>Recommended Music</h2>
+                    <br/>
+                    <div class="songs">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src='libs/nprogress/nprogress.js'></script>
+    <script src="js/recommendations.js"></script>
+    
+
+</body>
+
+</html>
