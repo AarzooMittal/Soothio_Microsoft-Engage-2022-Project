@@ -20,7 +20,7 @@
 ** numpy==1.11.3
 ** flask-cors==3.0.3
 ** scikit-learn==0.18.1
-** pandas==0.19.2
+**pandas==0.19.2
 ## Code Improvements
 
 * Mood-detection based music recommendation to be an added feature.
