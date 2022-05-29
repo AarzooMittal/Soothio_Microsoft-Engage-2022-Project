@@ -1,8 +1,5 @@
 # Soothio - Music Recommender
 
-A brief description of what this project does and who it's for
-
-
 ## Overview
 
 * Millions of music titles are now available to millions of consumers because to the advancement of the Internet.
