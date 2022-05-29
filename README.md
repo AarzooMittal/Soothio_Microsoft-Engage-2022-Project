@@ -26,7 +26,7 @@ With the introduction of streaming services such as Spotify, Pandora, Youtube, a
 * pandas==0.19.2
 ## How To Run Locally
 
- * git clone  demo
+ * git clone https://github.com/AarzooMittal/Soothio_Microsoft-Engage-2022-Project.git demo
  * cd demo
  * pip install -r requirements.txt
  * python app.py
