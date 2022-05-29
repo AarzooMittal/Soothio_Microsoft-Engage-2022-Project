@@ -7,9 +7,6 @@
 * Consumers are experiencing information overload as a result of the widespread sharing of music, while the music business faces the difficulty of targeted promotion and distribution.
 
 * By producing relevant recommendations, music recommendation systems strive to make the work of identifying music pieces that may interest consumers easier.
-## Exploratory Survey
-
-An observational poll on the factors that influence music preferences.
 ## Dependencies
 
 * Flask==0.11.1
@@ -29,3 +26,6 @@ An observational poll on the factors that influence music preferences.
 * Including the Spotify Dataset for more songs.
 * Mood-detection based music recommendation to be an added feature.
 * Multiple login and registration paths to be included to let the website remember the user.
+## Exploratory Survey
+
+An observational poll on the factors that influence music preferences.
