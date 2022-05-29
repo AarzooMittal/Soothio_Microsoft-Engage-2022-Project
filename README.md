@@ -12,18 +12,30 @@
 * By producing relevant recommendations, music recommendation systems strive to make the work of identifying music pieces that may interest consumers easier.
 ## Dependencies
 
-* Flask==0.11.1
-* Jinja2==2.8
-* MarkupSafe==0.23
-* Werkzeug==0.11.11
-* click==6.6
-* gunicorn==19.6.0
-* itsdangerous==0.24
-* scipy==0.18.1
-* numpy==1.11.3
-* flask-cors==3.0.3
-* scikit-learn==0.18.1
-* pandas==0.19.2
+> Flask==0.11.1
+> 
+> Jinja2==2.8
+> 
+> MarkupSafe==0.23
+> 
+> Werkzeug==0.11.11
+> 
+> click==6.6
+> 
+> gunicorn==19.6.0
+> 
+> itsdangerous==0.24
+> 
+> scipy==0.18.1
+> 
+> numpy==1.11.3
+> 
+> flask-cors==3.0.3
+> 
+> scikit-learn==0.18.1
+> 
+> pandas==0.19.2
+> 
 ## How To Run Locally
 
  * git clone https://github.com/AarzooMittal/Soothio_Microsoft-Engage-2022-Project.git demo
