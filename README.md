@@ -26,10 +26,10 @@ With the introduction of streaming services such as Spotify, Pandora, Youtube, a
 * pandas==0.19.2
 ## How To Run Locally
 
-* git clone  demo
-* cd demo
-* pip install -r requirements.txt
-* python app.py
+ * git clone  demo
+ * cd demo
+ * pip install -r requirements.txt
+ * python app.py
 ## Future Steps For Soothio
 
 * Mood-detection based music recommendation to be an added feature.
