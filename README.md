@@ -29,7 +29,7 @@ In these times, when each of us is amidst chaos and stress, listening to some mu
   - Physical Condition
   - Mood
 
-- Takes in input based on users' moods and choices and recommends musical tunes in the form of SoundCloud tracks (an audio website that allows users to publish, promote, and share sound clips)
+- Takes in inputs based on users' moods and choices and recommends musical tunes in the form of SoundCloud tracks (an audio website that allows users to publish, promote, and share sound clips)
 
 ## Dependencies
 
