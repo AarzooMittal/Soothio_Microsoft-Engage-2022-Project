@@ -14,7 +14,7 @@
 
 * By producing relevant recommendations, music recommendation systems strive to make the work of identifying music pieces that may interest consumers easier.
 
-## Why Inspired Me
+## What Inspired Me
 
 In these times, when each of us is amidst chaos and stress, listening to some music of very personalized choice and preference is something everyone wants. Music is a soul-soothing mantra and is proven to be therapeutic. Soothio soothes! :)
 
