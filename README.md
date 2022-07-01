@@ -1,8 +1,8 @@
 # Soothio - Music Recommender
 
--A music recommendation website that recommends personalized music on the basis of user-selected filters and moods. Unlike other popular streaming services, Soothio provides the tone you actually need, through your customized inputs only. It listens to your heart and then makes your heart listen in just a few clicks!
+- A music recommendation website that recommends personalized music on the basis of user-selected filters and moods. Unlike other popular streaming services, Soothio provides the tone you actually need, through your customized inputs only. It listens to your heart and then makes your heart listen in just a few clicks!
 
--With the introduction of streaming services such as Spotify, Pandora, Youtube, and iTunes, the music business has seen a significant increase in revenue. They all have their own ways of suggestion, but none of them provides for the kind of specific customization a user needs instantly in a situtation. Here's where Soothio comes in and soothes you with its very personalized tunes.
+- With the introduction of streaming services such as Spotify, Pandora, Youtube, and iTunes, the music business has seen a significant increase in revenue. They all have their own ways of suggestion, but none of them provides for the kind of specific customization a user needs instantly in a situtation. Here's where Soothio comes in and soothes you with its very personalized tunes.
 
 ![Soothio Website](https://user-images.githubusercontent.com/73010287/170919113-d1eb5ea4-252f-4edb-a520-e82089b45535.jpeg)
 
